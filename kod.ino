@@ -12,7 +12,7 @@ void loop(){
     pomiar = analogRead (A0);
     odleglosc = ((67870 / (pomiar - 3)) - 40);
     if (odleglosc > 500){
-        Serial.println("Leci samolot do buzi!");  #duża odległość, obieket wciąż czeka na łyżeczkę
+        Serial.println("Leci samolot do buzi!");  #duża odległość, obiekt wciąż czeka na łyżeczkę
     }
     else{
         Serial.println("Om nom nom!"); #łyżeczka jest blisko, więc czas otworzyć buzię
