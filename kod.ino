@@ -24,7 +24,7 @@ void loop(){
         Serial.println("*otwieranie buzi*"); #jeśli obraz jest ciemny, czujnik widzi łyżeczkę i otwiera buzię
     }
     else{
-        Serial.println("*buzia zamknięta*"); #obraz jest, nie ma łyżeczki, buzia zamknięta
+        Serial.println("*buzia zamknięta*"); #obraz jest jasny, nie ma łyżeczki, buzia zamknięta
     }
     delay(500);  
 }
